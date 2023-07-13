@@ -8,4 +8,6 @@ class FormStatesGroup(StatesGroup):
     # бот в разные моменты взаимодейтсвия с пользователем
     fill_name = State()        # Состояние ожидания ввода имени
     fill_age = State()         # Состояние ожидания ввода возраста
+    fill_gender = State()
+    fill_description = State()
     upload_photo = State()     # Состояние ожидания загрузки фото
